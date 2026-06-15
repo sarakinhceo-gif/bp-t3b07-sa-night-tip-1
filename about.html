@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="editorial-apple">
+    <meta name="bpaas-design-theme" content="kr-warm-grid">
+    <meta name="description" content="상암 유흥 꿀팁! 상암동 밤문화 핫플부터 가성비 좋은 술집까지, 현지인처럼 즐기는 법. 전화 010-6279-0862로 지금 문의하세요.">
+    <meta name="keywords" content="상암 유흥, 상암 유흥 꿀팁, 상암 술집, 상암 밤문화, 상암 가성비 유흥, 상암 핫플">
+    <link rel="canonical" href="https://t3b07-sa-night-tip-1.vercel.app/">
+    <meta property="og:title" content="상암 유흥 꿀팁 | 진짜 재미를 찾는 방법">
+    <meta property="og:description" content="상암 유흥 꿀팁! 상암동 밤문화 핫플부터 가성비 좋은 술집까지, 현지인처럼 즐기는 법.">
+    <meta property="og:url" content="https://t3b07-sa-night-tip-1.vercel.app/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ko_KR">
+    <meta name="robots" content="index, follow">
+    <title>상암 유흥 꿀팁 | 정보</title>
+    <style>
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #faf7f2;
+            color: #1a1a1a;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        nav {
+            background: #fff;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            padding: 16px 0;
+        }
+        .nav-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .logo {
+            font-weight: 700;
+            font-size: 1.25rem;
+            text-decoration: none;
+            color: #1a1a1a;
+        }
+        .logo span {
+            color: #d4a373;
+        }
+        .nav-links {
+            display: flex;
+            gap: 32px;
+            list-style: none;
+        }
+        .nav-links a {
+            text-decoration: none;
+            color: #4a4a4a;
+            font-size: 0.95rem;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+        .nav-links a:hover {
+            color: #d4a373;
+        }
+        .nav-cta {
+            background: #d4a373;
+            color: #fff;
+            padding: 10px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: background 0.2s;
+        }
+        .nav-cta:hover {
+            background: #c49463;
+        }
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            gap: 4px;
+        }
+        .hamburger span {
+            width: 24px;
+            height: 2px;
+            background: #1a1a1a;
+            border-radius: 2px;
+        }
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: #fff;
+                flex-direction: column;
+                padding: 20px;
+                gap: 16px;
+                box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            }
+            .nav-links.active {
+                display: flex;
+            }
+            .hamburger {
+                display: flex;
+            }
+            .nav-cta {
+                display: none;
+            }
+            .tel-link-mobile {
+                display: block;
+            }
+        }
+        @media (min-width: 769px) {
+            .tel-link-mobile {
+                display: none;
+            }
+        }
+        .hero {
+            padding: 80px 0 60px;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            line-height: 1.2;
+        }
+        .hero p {
+            font-size: 1.1rem;
+            color: #4a4a4a;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .section {
+            padding: 60px 0;
+        }
+        .section-title {
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin-bottom: 32px;
+            text-align: center;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 24px;
+        }
+        .card {
+            background: #fff;
+            padding: 32px;
+            border-radius: 12px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+        .card h3 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .card p {
+            color: #4a4a4a;
+            margin-bottom: 8px;
+        }
+        .card ul {
+            list-style: none;
+            padding: 0;
+        }
+        .card ul li {
+            padding: 8px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .card ul li:last-child {
+            border-bottom: none;
+        }
+        .faq-item {
+            background: #fff;
+            padding: 24px;
+            border-radius: 12px;
+            margin-bottom: 16px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+        .faq-item h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+            cursor: pointer;
+        }
+        .faq-item p {
+            color: #4a4a4a;
+        }
+        .cta-section {
+            background: #fff;
+            padding: 60px 0;
+            text-align: center;
+        }
+        .cta-section h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+        }
+        .cta-section p {
+            color: #4a4a4a;
+            margin-bottom: 24px;
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .btn-primary {
+            display: inline-block;
+            background: #d4a373;
+            color: #fff;
+            padding: 14px 36px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.05rem;
+            transition: background 0.2s;
+        }
+        .btn-primary:hover {
+            background: #c49463;
+        }
+        footer {
+            background: #1a1a1a;
+            color: #faf7f2;
+            padding: 40px 0;
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="/" class="logo">상암<span>꿀팁</span></a>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="/">홈</a></li>
+                <li><a href="/info">정보</a></li>
+                <li><a href="/tips">꿀팁</a></li>
+                <li><a href="/contact">문의</a></li>
+                <li class="tel-link-mobile"><a href="tel:01062790862">010-6279-0862</a></li>
+            </ul>
+            <a href="tel:01062790862" class="nav-cta">전화 문의</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <h1>상암 유흥, 제대로 즐기는 정보</h1>
+            <p>상암동에서 진짜 재미를 찾고 있다면? 현지인만 아는 핫플부터 가성비 좋은 코스까지, 다 알려줄게.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">상암 유흥 핵심 정보</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>📍 위치 & 접근성</h3>
+                    <p>상암동은 디지털미디어시티(DMC) 인근이라 교통이 진짜 편해. 지하철 6호선, 버스도 많고, 주차장도 널널한 편이야. 야간에 놀러 가기 딱 좋아.</p>
+                    <ul>
+                        <li>🚇 지하철: 6호선 수색역, 디지털미디어시티역</li>
+                        <li>🚌 버스: 7011, 7611, 7711번 등</li>
+                        <li>🚗 주차: 상암동 공영주차장 (야간 할인 있음)</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>🍻 추천 유흥 코스</h3>
+                    <p>내가 직접 돌아다니면서 찾은 베스트 코스야. 첫잔은 가볍게, 마지막은 화려하게!</p>
+                    <ul>
+                        <li>1차: 월드컵공원 근처 감성술집 '달빛한모금'</li>
+                        <li>2차: DMC 스트리트 '더비어하우스' (생맥주가 예술)</li>
+                        <li>3차: 노래방 '상암보이스' (룸 컨디션 최고)</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>💰 가성비 꿀팁</h3>
+                    <p>유흥이라고 다 비싼 건 아니야. 이렇게 하면 반값에 즐길 수 있어.</p>
+                    <ul>
+                        <li>🔥 평일 1차: 칵테일 바 '시크릿룸' 해피아워 이용 (7-9시 30% 할인)</li>
+                        <li>🔥 2차: 포장마차 골목 '상암야시장' (안주 저렴, 분위기 굿)</li>
+                        <li>🔥 마지막: 편의점 테라스 (야간 산책하며 마무리)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" style="background: #fff;">
+        <div class="container">
+            <h2 class="section-title">자주 묻는 질문 (FAQ)</h2>
+            <div class="faq-item">
+                <h3>상암 유흥, 첫 방문인데 추천 좀 해줘</h3>
+                <p>당연하지! 첫 방문이면 DMC 주변을 추천해. 분위기 좋은 바가 많고, 사람들도 친절해. 특히 '문라이트 라운지'는 칵테일이 맛있고 인테리어도 예뻐서 데이트나 친구랑 가기 딱이야.</p>
+            </div>
+            <div class="faq-item">
+                <h3>상암동에서 늦은 시간까지 노는 곳 있어?</h3>
+                <p>있지! '상암나이트'는 새벽 3시까지 영업하고, 주말에는 더 늦게까지 해. 분위기도 좋고 안주도 푸짐해서 현지인들이 자주 가는 곳이야. 전화 미리 하고 가면 자리 걱정 없어.</p>
+            </div>
+            <div class="faq-item">
+                <h3>가성비 좋은 술집 알려줘</h3>
+                <p>오, 내가 전문가야! '상암맥주창고'는 생맥주 5000원에 안주가 8000원부터 시작해. 2명이서 3만원이면 배부르게 먹고 마실 수 있어. 그리고 '달빛포차'는 모듬전이 진짜 맛있고 가격도 착해.</p>
+            </div>
+            <div class="faq-item">
+                <h3>상암 유흥 정보, 어디서 더 볼 수 있어?</h3>
+                <p>우리 사이트에서 계속 업데이트하고 있어! 그리고 궁금한 건 전화 010-6279-0862로 바로 물어봐. 내가 직접 추천해줄게. 현지인만 아는 스팟도 알려줄 수 있어.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <h2>지금 바로 상암 유흥 시작해볼래?</h2>
+            <p>내가 직접 발로 뛰어서 찾은 정보야. 전화 한 통이면 네가 원하는 모든 걸 알려줄게.</p>
+            <a href="tel:01062790862" class="btn-primary">📞 010-6279-0862</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 상암 유흥 꿀팁 | 진짜 재미를 찾는 사람들을 위한 공간</p>
+            <p style="margin-top: 8px;">문의: 010-6279-0862 | 운영 시간: 18:00 ~ 03:00</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.getElementById('navLinks');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
